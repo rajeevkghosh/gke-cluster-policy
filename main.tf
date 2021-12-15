@@ -1,6 +1,6 @@
 provider "google" {
     project = "airline1-sabre-wolverine"
-    credentials = file("../gke.json")
+    #credentials = file("../gke.json")
 }
 resource "google_container_cluster" "primary" {
   name               = "marcellus-wallace"
